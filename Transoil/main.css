@@ -32,6 +32,9 @@ Acordeon de bootstrap
     color: #454444;
 }
 
+.navbar-transoil{
+    background-image: linear-gradient(#F58723 50%, #EEC6438f 95%) !important;
+}
 
 /*Hola soy Julian este es mi trabajo de 8 horas espero que no se borre*/
 

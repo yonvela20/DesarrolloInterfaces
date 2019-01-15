@@ -31,19 +31,71 @@ Acordeon de bootstrap
     -o-transform: rotate(90deg);
     transform: rotate(90deg); */
     color: #454444;
-<<<<<<< HEAD
-}
-=======
 }
 
-.navbar-transoil{
+/* dropdown propio */
+
+.dropbtnTransoil {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdownTransoil {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+    /* Acordeon Transoil */
+    .accordion-section .panel-default > .panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+    }
+    .accordion-section .panel-default .panel-title a {
+        display: block;
+        font-style: italic;
+        font-size: 1.5rem;
+    }
+    .accordion-section .panel-default .panel-title a:after {
+        font-family: 'FontAwesome';
+        font-style: normal;
+        font-size: 3rem;
+        content: "\f106";
+        color: #1f7de2;
+        float: right;
+        margin-top: -12px;
+    }
+    .accordion-section .panel-default .panel-title a.collapsed:after {
+        content: "\f107";
+    }
+    .accordion-section .panel-default .panel-body {
+        font-size: 1.2rem;
+    }
+
+
+/* .navbar-transoil{
     background-image: linear-gradient(#F58723 50%, #EEC6438f 95%) !important;
-}
-
-/*Hola soy Julian este es mi trabajo de 8 horas espero que no se borre*/
-
-
-/*Codigo aun mas nuevo*/
-
-/*askljfhaslkdfjh hoal hola ola*/
->>>>>>> 1075f7adec4f5c6efadcf97ae9b1f69fa88d9d02
+} */

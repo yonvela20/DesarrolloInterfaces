@@ -125,3 +125,32 @@ a{
 .protocolo-transoil h2{
     color: #F58723;
 }
+
+/*contact.html*/
+.contact-transoil{
+    padding-left: 1%;
+    padding-right: 1.1% !important;
+}
+
+.contact-transoil a{
+    background-color: #F58723;
+    border-color: #F58723;
+    color: white !important;
+}
+
+.contact-transoil a:hover{
+    background-color: #db6f0a;
+}
+
+/*Tienda transoil*/
+.tienda-transoil a{
+    background-color: #F58723;
+    border-color: #F58723;
+    color: white !important;
+}
+
+.tienda-transoil a:hover{
+    background-color: #db6f0a;
+}
+
+

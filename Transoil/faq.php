@@ -31,51 +31,9 @@
 
 <body>
     <!-- Menú de arriba -->
-    <div class="menu-transoil">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-transoil">
-            <a class="navbar-brand" href="index.html">Transoil</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html"> Inicio </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="faq.html"> FAQ </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="protocolo.html"> Reciclado de aceite </a>
-                    </li>
-                    <li class="nav-item dropdown dropdownTransoil">
-                        <a class="nav-link dropdown-toggle dropbtnTransoil" href="#" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Servicios
-                        </a>
-                        <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="recogida_aceite.html"> Recogida de aceite </a>
-                            <a class="dropdown-item" href="tienda.html"> Venta de productos </a>
-                            <a class="dropdown-item" href="tienda.html"> Recambios </a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html"> Contacto </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-
-    <header class="header-transoil">
-        <nav class="navbar">
-            <h2>PREGUNTAS FRECUENTES</h2>
-        </nav>
-        <div class="panel-default">
-            <p><a href="index.html">Inicio/</a>Preguntas frecuentes</p>
-        </div>
-    </header>
+    <?php 
+        include 'cabecera.php';
+    ?>
 
     <!-- Acordeon  -->
     <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
@@ -188,78 +146,9 @@
     </section>
 
     <!-- Footer -->
-    <footer class="page-footer font-small blue pt-4 footer-transoil">
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
-            <!-- Grid row -->
-            <div class="row">
-                <!-- Grid column -->
-                <div class="col-md-6 mt-md-0 mt-3">
-                    <!-- Content -->
-                    <h5 class="text-uppercase">Transoil.com</h5>
-                    <p>Sevicios de recogida de aceite y reciclado de aceite</p>
-                    <p><b>Contacto</b></p>
-                    <ul>
-                        <li>Tlf: 686 010 203</li>
-                        <li>C/Pascual nº43</li>
-                        <li>Cod. Postal: 46190</li>
-                    </ul>
-                </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none pb-3">
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Empresa</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="faq.html">Preguntas frecuentes</a>
-                        </li>
-                        <li>
-                            <a href="recogida_aceite.html">Servicios</a>
-                        </li>
-                        <li>
-                            <a href="protocolo.html">Normativa</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Usuarios</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="contacto.html">Solicitar recogida</a>
-                        </li>
-                        <li>
-                            <a href="contacto.html">Contactar</a>
-                        </li>
-                        <li>
-                            <a href="#!">Darse de alta</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
-        </div>
-        <!-- Footer Links -->
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="index.html"> Transoil.com</a>
-        </div>
-    </footer>
+    <?php 
+        include 'footer.php';
+    ?>
 </body>
 
 </html>

@@ -31,42 +31,9 @@
 
 <body>
     <!-- Menú de arriba -->
-    <div class="menu-transoil">
-        <nav class="navbar navbar-expand-lg navbar-light navbar-transoil">
-            <a class="navbar-brand" href="index.html">Transoil</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html"> Inicio </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="faq.html"> FAQ </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="protocolo.html"> Reciclado de aceite </a>
-                    </li>
-                    <li class="nav-item dropdown dropdownTransoil">
-                        <a class="nav-link dropdown-toggle dropbtnTransoil" href="#" id="navbarDropdownMenuLink"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Servicios
-                        </a>
-                        <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="recogida_aceite.html"> Recogida de aceite </a>
-                            <a class="dropdown-item" href="tienda.html"> Venta de productos </a>
-                            <a class="dropdown-item" href="tienda.html"> Recambios </a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contacto.html"> Contacto </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <?php 
+        include 'cabecera.php';
+    ?>
     <!-- Slider -->
     <div id="carouselExampleControls" class="carousel slide carousel-transoil" data-ride="carousel">
         <div class="carousel-inner">
@@ -74,10 +41,10 @@
                 <img class="d-block w-100" src="images/slider_1.png" alt="First slide" max>
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/slider_2.jpg" alt="Second slide">
+                <img class="d-block w-100" src="images/slider_2.png" alt="Second slide">
             </div>
             <div class="carousel-item">
-                <img class="d-block w-100" src="images/slider_3.jpg" alt="Third slide">
+                <img class="d-block w-100" src="images/slider_3.png" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -89,15 +56,6 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-
-    <header class="header-transoil">
-        <nav class="navbar">
-            <h2>INICIO</h2>
-        </nav>
-        <div class="panel-default">
-            <p><a href="index.html">Inicio</a></p>
-        </div>
-    </header>
 
     <!-- Resumen de contacto -->
     <div class="jumbotron jumbotron-fluid resumen-transoil">
@@ -112,7 +70,7 @@
                 </ul>
             </p>
             <p class="lead">
-                <a class="btn btn-primary btn-lg" href="contacto.html" role="button"> Solicita recogida </a>
+                <a class="btn btn-primary btn-lg" href="contacto.php" role="button"> Solicita recogida </a>
             </p>
         </div>
     </div>
@@ -122,7 +80,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 about-left">
-                    <img class="img-fluid" src="images/furgoneta1.PNG" alt="furgoneta">
+                    <img class="img-fluid" src="images/furgoneta1.png" alt="furgoneta">
                 </div>
                 <div class="col-lg-6 about-right">
                     <h2>Comprometidos con
@@ -132,7 +90,7 @@
                         labore et dolore magna aliqua.Ut enim ad minim. Lorem ipsum dolor sit amet, consectetur
                         adipisicing elit, sed do eiusmod tempor.
                     </p>
-                    <a class="text-uppercase primary-btn" href="protocolo.html"> Detalles </a>
+                    <a class="text-uppercase primary-btn" href="protocolo.php"> Detalles </a>
                 </div>
             </div>
         </div>
@@ -149,7 +107,7 @@
             <div class="row">
                 <div class="col-lg-4 single-service">
                     <span class="lnr lnr-car"></span>
-                    <a href="recogida_aceite.html">
+                    <a href="recogida_aceite.php">
                         <h4>Recogida de aceite</h4>
                     </a>
                     <p>
@@ -159,7 +117,7 @@
                 </div>
                 <div class="col-lg-4 single-service">
                     <span class="lnr lnr-briefcase"></span>
-                    <a href="tienda.html">
+                    <a href="tienda.php">
                         <h4> Venta de productos de limpieza </h4>
                     </a>
                     <p>
@@ -168,7 +126,7 @@
                 </div>
                 <div class="col-lg-4 single-service">
                     <span class="lnr lnr-bus"></span>
-                    <a href="tienda.html">
+                    <a href="tienda.php">
                         <h4> Venta de recambios y electrodomesticos </h4>
                     </a>
                     <p>
@@ -190,78 +148,9 @@
         <br>
     </div>
     <!-- Footer -->
-    <footer class="page-footer font-small blue pt-4 footer-transoil">
-        <!-- Footer Links -->
-        <div class="container-fluid text-center text-md-left">
-            <!-- Grid row -->
-            <div class="row">
-                <!-- Grid column -->
-                <div class="col-md-6 mt-md-0 mt-3">
-                    <!-- Content -->
-                    <h5 class="text-uppercase">Transoil.com</h5>
-                    <p>Sevicios de recogida de aceite y reciclado de aceite</p>
-                    <p><b>Contacto</b></p>
-                    <ul>
-                        <li>Tlf: 686 010 203</li>
-                        <li>C/Pascual nº43</li>
-                        <li>Cod. Postal: 46190</li>
-                    </ul>
-                </div>
-                <!-- Grid column -->
-
-                <hr class="clearfix w-100 d-md-none pb-3">
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Empresa</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="faq.html">Preguntas frecuentes</a>
-                        </li>
-                        <li>
-                            <a href="recogida_aceite.html">Servicios</a>
-                        </li>
-                        <li>
-                            <a href="protocolo.html">Normativa</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- Grid column -->
-
-                <!-- Grid column -->
-                <div class="col-md-3 mb-md-0 mb-3">
-
-                    <!-- Links -->
-                    <h5 class="text-uppercase">Usuarios</h5>
-
-                    <ul class="list-unstyled">
-                        <li>
-                            <a href="contacto.html">Solicitar recogida</a>
-                        </li>
-                        <li>
-                            <a href="contacto.html">Contactar</a>
-                        </li>
-                        <li>
-                            <a href="#!">Darse de alta</a>
-                        </li>
-                    </ul>
-
-                </div>
-                <!-- Grid column -->
-            </div>
-            <!-- Grid row -->
-        </div>
-        <!-- Footer Links -->
-
-        <!-- Copyright -->
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:
-            <a href="index.html"> Transoil.com</a>
-        </div>
-    </footer>
+    <?php 
+        include 'footer.php';
+    ?>
 </body>
 
 </html>

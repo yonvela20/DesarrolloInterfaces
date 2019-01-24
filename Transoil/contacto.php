@@ -46,7 +46,7 @@
         <div class="row">
             <!--Grid column-->
             <div class="col-md-8 col-xl-9">
-                <form id="contact-form" name="contact-form">
+                <form id="contact-form" name="contact-form" method='POST' action='model/contacto_model.php'>
                     <!--Grid row-->
                     <div class="row">
 
@@ -96,12 +96,12 @@
                         </div>
                     </div>
                     <!--Grid row-->
-
+                    <div class="center-on-small-only">
+                    <input type='submit' class="btn btn-primary contact-transoil-btn">
+                </div>
                 </form>
 
-                <div class="center-on-small-only">
-                    <a class="btn btn-primary">Enviar</a>
-                </div>
+
                 <div class="status"></div>
             </div>
             <!--Grid column-->

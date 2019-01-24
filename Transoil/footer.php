@@ -6,7 +6,7 @@
                 <!-- Grid column -->
                 <div class="col-md-6 mt-md-0 mt-3">
                     <!-- Content -->
-                    <h5 class="text-uppercase">Transoil.com</h5>
+                    <h5 class="text-uppercase"><a href="index.php">Transoil.com</a></h5>
                     <p>Sevicios de recogida de aceite y reciclado de aceite</p>
                     <p><b>Contacto</b></p>
                     <ul>

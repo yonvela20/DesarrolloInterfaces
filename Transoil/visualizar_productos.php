@@ -40,11 +40,10 @@
     
     <?php 
 
-    $nombre = $_POST['nombre'];
+    $id = $_POST['id'];
     //$precio = $_POST['precio']
-    var_dump($nombre);
 
-
+    
     //TODO: Que lo pille todo por la base de datos y que me muestre los datos enviados 
     ?>
 
@@ -61,7 +60,7 @@
         </aside>
         <aside class="col-sm-7">
             <article class="card-body p-5">
-                <h3 class="title mb-3"><?php $nombre ?></h3>
+                <h3 class="title mb-3"><?= $id ?></h3>
                 <p class="price-detail-wrap">
                     <span class="price h3 text-warning">
                         <span class="currency">€ </span><span class="num"> <?php //$precio ?> </span>

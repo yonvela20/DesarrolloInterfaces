@@ -33,6 +33,7 @@
     <!-- Menú de arriba -->
     <?php 
         include 'cabecera.php';
+
     ?>
     <br>
 
@@ -41,9 +42,11 @@
     <div class="album py-5">
         <div class="container tienda-transoil">
             <div class="row">
-
+                <?php 
+                    include './controller/connection.php';
+                ?>
                 <!-- Esto es un producto -->
-                <div class="col-md-4">
+<!--                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
                         <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
                             preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
@@ -51,9 +54,9 @@
                             <rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">Thumbnail</text>
                         </svg>
                         <form action='visualizar_productos.php' method='POST'>
-                            <div class="card-body">
+                            <div class="card-body"> 
                                 <p class="card-text">
-                                    producto 1<input type='hidden' name='nombre' value='producto 1'>
+                                    producto 1<input type='hidden' name='id' value='producto 1'>
                                 </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
@@ -63,10 +66,10 @@
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> -->
                 <!-- Aqui acaba el producto -->
 
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
                         <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg"
                             preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail">
@@ -240,7 +243,7 @@
                             </div>
                         </form>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>

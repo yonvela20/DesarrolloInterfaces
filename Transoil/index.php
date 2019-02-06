@@ -93,6 +93,9 @@
     </section>
     <br>
     <br>
+    <hr>
+    <!-- video -->
+    <script>(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src='https://embed.playbuzz.com/sdk.js';fjs.parentNode.insertBefore(js,fjs);}(document,'script','playbuzz-sdk'));</script><div class="playbuzz" data-id="5a2297dc-3a86-4d30-8835-06ef13c0f358" data-show-share="false" data-show-info="false"></div>
     <!-- Servicios: un enlace a la tienda, otro al formulario, otro a la tienda pero de recambios  -->
     <section class="services-area pb-120">
         <div class="container text-center">

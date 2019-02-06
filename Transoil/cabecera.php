@@ -38,7 +38,7 @@
     <!-- header -->
     <header class="header-transoil">
         <nav class="navbar">
-            <h2>CONTACTO</h2>
+            <h2>TITULO DE LA PAGINA</h2>
         </nav>
         <div class="panel-default">
             <p><a href="index.php">Transoil/</a>Titulo de pagina</p>

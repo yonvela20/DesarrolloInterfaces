@@ -1,9 +1,6 @@
 <?php 
 require '../controller/contacto_controller.php';
 
-//TODO: Las funciones deberían ir en una clase aparte controlador y hacer un require de esa clase en esta para que 
-//sea MVC. Esto solo debería ser el modelo
-
 //FIXME: La funcion esta va pero ahora como está configurado no. Leer "enviar_mails.txt" para mas info
 if(isset($_POST['email'])){
     //Email de Transoil

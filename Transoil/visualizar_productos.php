@@ -33,18 +33,14 @@
     <!-- Menú de arriba -->
     <?php 
         include 'cabecera.php';
+        include 'model/visualizar_model.php'
     ?>
     <br>
 
     <!-- Contenido de la pagina -->
     
     <?php 
-
-    $id = $_POST['id'];
-    //$precio = $_POST['precio']
-
-    
-    //TODO: Que lo pille todo por la base de datos y que me muestre los datos enviados 
+    //TODO: pillar la imagen por la bbdd
     ?>
 
 <div class="card">
@@ -53,30 +49,24 @@
             <article class="gallery-wrap">
                 
             <div class="img-big-wrap">
-                    <div> <a href="#"><img src="https://s9.postimg.org/tupxkvfj3/image.jpg"></a></div>
+                    <div><img class="images-tienda" src="images/producto<?=$id?>.png"></a></div>
                 </div> <!-- slider-product.// -->
 
             </article> <!-- gallery-wrap .end// -->
         </aside>
         <aside class="col-sm-7">
             <article class="card-body p-5">
-                <h3 class="title mb-3"><?= $id ?></h3>
+                <h3 class="title mb-3"><?= $nombre[0] ?></h3>
                 <p class="price-detail-wrap">
                     <span class="price h3 text-warning">
-                        <span class="currency">€ </span><span class="num"> <?php //$precio ?> </span>
+                        <span class="currency"><?= $precio[0] ?>€ </span><span class="num"> <?php //$precio ?> </span>
                     </span>
                 </p> <!-- price-detail-wrap .// -->
                 <dl class="item-property">
                     <dt>Descripcion</dt>
                     <dd>
-                        <p>Here goes description consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco </p>
+                        <p> <?= $descripcion[0] ?> </p>
                     </dd>
-                </dl>
-                <dl class="param param-feature">
-                    <dt>Modelo</dt>
-                    <dd>12345611</dd>
                 </dl> <!-- item-property-hor .// -->
 
                 <hr>
@@ -96,9 +86,8 @@
 
                 </div> <!-- row.// -->
                 <hr>
-                <a href="#" class="btn btn-lg btn-primary text-uppercase"> Comprar</a>
-                <a href="#" class="btn btn-lg btn-outline-primary text-uppercase"> <i class="fas fa-shopping-cart"></i>
-                    Añadir al carrito </a>
+                <a href="#" class="btn btn-lg btn-primary text-uppercase btn-comprar"> comprar</a>
+                <a href="#" class="btn btn-lg btn-primary text-uppercase btn-comprar"> añadir al carrito</a>
             </article> <!-- card-body.// -->
         </aside> <!-- col.// -->
     </div> <!-- row.// -->

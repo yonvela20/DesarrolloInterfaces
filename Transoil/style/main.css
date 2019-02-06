@@ -150,13 +150,36 @@ a{
 
 /*Tienda transoil*/
 .tienda-transoil a{
-    background-color: #F58723;
-    border-color: #F58723;
+    background-color: #F58723 !important;
+    border-color: #F58723 !important;
     color: white !important;
 }
 
 .tienda-transoil a:hover{
-    background-color: #db6f0a;
+    background-color: #db6f0a !important;
 }
 
+.images-tienda{
+    max-width: 300px !important;
+    max-height: 300px !important;
+}
 
+.btn-tienda input{
+    background-color: #F58723 !important;
+    color: white !important;
+    border-color: #F58723 !important;
+}
+
+.btn-tienda input:hover{
+    background-color: #db6f0a !important;
+}
+
+.btn-comprar {
+    background-color: #F58723 !important;
+    color: white !important;
+    border-color: #F58723 !important;
+}
+
+.btn-tienda a:hover{
+    background-color: #db6f0a !important;
+}

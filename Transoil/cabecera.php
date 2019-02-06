@@ -41,6 +41,6 @@
             <h2>TITULO DE LA PAGINA</h2>
         </nav>
         <div class="panel-default">
-            <p><a href="index.php">Transoil/</a>Titulo de pagina</p>
+            <p><a href="index.php">Transoil/</a><!-- <?= $titulo = $_POST['titulo']; var_dump($titulo[0]); ?> --></p>
         </div>
     </header>

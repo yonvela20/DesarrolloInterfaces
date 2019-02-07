@@ -32,8 +32,9 @@
 <body>
     <!-- Menú de arriba -->
     <?php 
+        include 'model/visualizar_model.php';
+        $title = $nombre[0];
         include 'cabecera.php';
-        include 'model/visualizar_model.php'
     ?>
     <br>
 
@@ -86,7 +87,7 @@
 
                 </div> <!-- row.// -->
                 <hr>
-                <a href="#" class="btn btn-lg btn-primary text-uppercase btn-comprar"> comprar</a>
+                <a href="carrito.php" class="btn btn-lg btn-primary text-uppercase btn-comprar"> comprar</a>
                 <a href="#" class="btn btn-lg btn-primary text-uppercase btn-comprar"> añadir al carrito</a>
             </article> <!-- card-body.// -->
         </aside> <!-- col.// -->

@@ -87,11 +87,15 @@ a{
 
 /* faq.html */
 /*Acordeon transoil*/
-.acordeon-transoil h2{
+/* .acordeon-transoil h2{
     color: #f58f29 !important;
 }
 .acordeon-transoil a{
-    color: black !important;
+    color: #F58723 !important;
+} */
+
+.acordeonTransoil a{
+    color: #F58723 !important;
 }
 
 /*Acordeon de bootstrap */
@@ -182,4 +186,10 @@ a{
 
 .btn-tienda a:hover{
     background-color: #db6f0a !important;
+}
+
+/* carrito .html*/
+
+.carritoTransoil p{
+    margin-left: 15px !important;
 }

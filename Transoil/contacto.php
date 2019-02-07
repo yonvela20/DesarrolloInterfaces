@@ -32,6 +32,7 @@
 
 <!-- cabecera -->
 <?php 
+    $title = "Contacto";
     include 'cabecera.php';
 ?>
 

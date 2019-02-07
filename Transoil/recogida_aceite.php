@@ -32,6 +32,7 @@
 <body>
     <!-- Menú de arriba -->
     <?php 
+        $title = "Recogida de aceite";
         include 'cabecera.php';
     ?>
     <br>

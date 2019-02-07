@@ -32,6 +32,7 @@
 <body>
     <!-- Menú de arriba -->
     <?php 
+        $title = "Tienda";
         include 'cabecera.php';
     ?>
     <br>

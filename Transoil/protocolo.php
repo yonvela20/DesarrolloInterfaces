@@ -32,6 +32,7 @@
 <body>
     <!-- Menú de arriba -->
     <?php
+        $title = "Protocolo";
         include 'cabecera.php';
     ?>
     <br>

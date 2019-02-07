@@ -38,9 +38,9 @@
     <!-- header -->
     <header class="header-transoil">
         <nav class="navbar">
-            <h2>TITULO DE LA PAGINA</h2>
+            <h2><?php echo strtoupper($title) ?></h2>
         </nav>
         <div class="panel-default">
-            <p><a href="index.php">Transoil/</a><!-- <?= $titulo = $_POST['titulo']; var_dump($titulo[0]); ?> --></p>
+            <p><a href="index.php">Transoil/</a><?php echo $title; ?></p>
         </div>
     </header>

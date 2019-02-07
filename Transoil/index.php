@@ -29,7 +29,9 @@
 
 <body>
     <!-- Menú de arriba -->
+
     <?php 
+        $title = "Inicio";
         include 'cabecera.php';
     ?>
     <!-- Slider -->

@@ -32,18 +32,19 @@
 <body>
     <!-- Menú de arriba -->
     <?php 
+        $title = "Faq";
         include 'cabecera.php';
     ?>
 
     <!-- Acordeon  -->
     <section class="accordion-section clearfix mt-3" aria-label="Question Accordions">
-        <div class="container acordeon-transoil">
+        <div class="container acordeonTransoil">
             <!-- <h2>Preguntas frecuentes</h2> -->
             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                 <div class="panel panel-default">
                     <div class="panel-heading p-3 mb-3" role="tab" id="heading0">
                         <h3 class="panel-title">
-                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion"
+                            <a class="collapsed acordeon-transoil" role="button" title="" data-toggle="collapse" data-parent="#accordion"
                                 href="#collapse0" aria-expanded="true" aria-controls="collapse0">
                                 ¿En qué consiste nuestro modelo de negocio?
                             </a>

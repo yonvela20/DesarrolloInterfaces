@@ -6,7 +6,27 @@ a{
 /*Elementos generales a todas las paginas */
 /* dropdown menu propio */
 .menu-transoil a{
-    color: black !important;
+    color: white !important;
+}
+
+.menu-transoil a:hover{
+    background-color: #54428E !important;
+}
+
+
+.menu-transoil{
+    background-color: #54428E !important;
+}
+
+.menu-transoil div{
+    background-color: #54428E !important;
+}
+
+
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+    padding: 5%;
 }
 
 .dropbtnTransoil {
@@ -141,6 +161,11 @@ a{
     border-color: #F58723;
     color: white !important;
 }
+
+.contact-transoil-btn input:hover{
+    background-color: #f58f29 !important;
+}
+
 
 .contact-transoil a{
     background-color: #F58723;

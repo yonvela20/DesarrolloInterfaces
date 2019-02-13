@@ -85,7 +85,7 @@
                 <td class="text-center"><strong>Suma de todos los subtotales</strong></td>
             </tr>
             <tr>
-                <td><a href="#" class="btn btn-warning btn-comprar"><i class="fa fa-angle-left"></i> Continuar comprando </a></td>
+                <td><a href="./tienda.php" class="btn btn-warning btn-comprar"><i class="fa fa-angle-left"></i> Continuar comprando </a></td>
                 <td colspan="2" class="hidden-xs"></td>
                 <td class="hidden-xs text-center"><strong>Suma de todos los subtotales</strong></td>
                 <td><a href="#" class="btn btn-success btn-block btn-comprar">Pagar<i class="fa fa-angle-right"></i></a></td>

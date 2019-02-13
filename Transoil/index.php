@@ -58,7 +58,7 @@
     </div>
 
     <!-- Resumen de contacto -->
-    <div class="jumbotron jumbotron-fluid resumen-transoil">
+    <div class="jumbotron  resumen-transoil">
         <div class="container">
             <h4 class="display-4">¿Dónde nos encontramos?</h4>
             <p class="lead">

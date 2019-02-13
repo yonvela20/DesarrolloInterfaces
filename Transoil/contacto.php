@@ -98,7 +98,7 @@
                     </div>
                     <!--Grid row-->
                     <div class="center-on-small-only">
-                    <input type='submit' class="btn btn-primary contact-transoil-btn">
+                    <input type='submit' class="btn contact-transoil-btn">
                 </div>
                 </form>
 

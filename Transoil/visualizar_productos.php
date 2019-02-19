@@ -50,7 +50,7 @@
             <article class="gallery-wrap">
                 
             <div class="img-big-wrap">
-                    <div><img class="images-tienda" src="images/producto<?=$id?>.png"></a></div>
+                    <div><img class="images-tienda" src="images/producto<?=$id?>.png" alt="producto<?=$nombre[0]?>"></div>
                 </div> <!-- slider-product.// -->
 
             </article> <!-- gallery-wrap .end// -->
@@ -94,9 +94,7 @@
     </div> <!-- row.// -->
 </div> <!-- card.// -->
 
-
-</div>
-<!--container.//-->
+    <!--container.//-->
 
     <br><br>
     <!-- Footer -->

@@ -90,7 +90,7 @@
                         <div class="col-md-12">
 
                             <div class="md-form">
-                                <textarea type="text" id="mensaje" name="mensaje" rows="2" class="form-control md-textarea"></textarea>
+                                <textarea id="mensaje" name="mensaje" rows="2" class="form-control md-textarea"></textarea>
                                 <label for="mensaje">Tu mensaje</label>
                             </div>
 

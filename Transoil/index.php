@@ -4,9 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <form method="POST">
-        <title name="titulo" value="">Transoil</title>
-    </form>
+    <title>Transoil</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- js de bootstrap-->
     <link rel="stylesheet" href="bootstrap/js/bootstrap.js" />

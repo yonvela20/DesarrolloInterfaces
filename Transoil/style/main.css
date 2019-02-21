@@ -105,15 +105,6 @@ a{
     background-color: #db6f0a !important;
 }
 
-/* faq.html */
-/*Acordeon transoil*/
-/* .acordeon-transoil h2{
-    color: #f58f29 !important;
-}
-.acordeon-transoil a{
-    color: #F58723 !important;
-} */
-
 .acordeonTransoil a{
     color: #F58723 !important;
 }
@@ -132,13 +123,6 @@ a{
     color: #F58723;
     font-size: 18px;
     line-height: 22px;
-
-    /*rotate "play" icon from > (right arrow) to down arrow*/
-    /*-webkit-transform: rotate(-90deg);
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    -o-transform: rotate(-90deg);
-    transform: rotate(-90deg); */
 }
 
 .panel-heading [data-toggle="collapse"].collapsed:after {

@@ -1,7 +1,7 @@
     <!-- Menú de arriba -->
     <div class="menu-transoil">
         <nav class="menu-transoil navbar navbar-expand-lg navbar-light navbar-transoil">
-            <a href="index.php"><img class="logo" src="images/TransoilFondo.png" alt="logo"></a>
+            <a href="index.php"><img src="images/TransoilFondoEscalada.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

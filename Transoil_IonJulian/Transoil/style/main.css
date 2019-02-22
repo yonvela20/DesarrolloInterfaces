@@ -1,0 +1,204 @@
+/*Etiquetas comunes*/
+a{
+    color: #f58f29 !important;  
+}
+
+/*Elementos generales a todas las paginas */
+/* dropdown menu propio */
+.menu-transoil a{
+    color: white !important;
+}
+
+.menu-transoil a:hover{
+    background-color: #54428E !important;
+}
+
+
+.menu-transoil{
+    background-color: #54428E !important;
+}
+
+.menu-transoil div{
+    background-color: #54428E !important;
+}
+
+
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+    padding: 5%;
+}
+
+.dropbtnTransoil {
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdownTransoil {
+    position: relative;
+    display: inline-block;
+    color: black;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+    /*footer transoil*/
+    .footer-transoil{
+        background-color: #141414;
+        color: white;
+    }
+
+    .footer-transoil a{
+        color: #f58f29;
+    }
+
+    /*Header transoil*/
+
+    .header-transoil{
+        height: 7%;
+        width: 100%;
+        background-color: #141414;
+    }
+
+    .header-transoil h2{
+        color: white !important;
+    }
+
+    .header-transoil p{
+        color: white;
+        padding-left: 1%;
+    }
+
+
+/*Elementos de paginas concretas*/
+
+/* index.html */
+/* jumbotron transoil */
+.resumen-transoil a{
+    color: white !important;
+    background-color: #F58723 !important;
+    border-color: #F58723 !important;
+}
+
+.resumen-transoil a:hover{
+    background-color: #db6f0a !important;
+}
+
+.acordeonTransoil a{
+    color: #F58723 !important;
+}
+
+/*Acordeon de bootstrap */
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+.faqHeader {
+    font-size: 27px;
+    margin: 20px;
+}
+
+.panel-heading [data-toggle="collapse"]:after {
+    font-family: 'FontAwesome';
+    content: "\f078"; 
+    float: right;
+    color: #F58723;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.panel-heading [data-toggle="collapse"].collapsed:after {
+    color: #454444;
+}
+
+/*protocolo.html*/
+.protocolo-transoil h2{
+    color: #F58723;
+}
+
+/*contact.html*/
+.contact-transoil{
+    padding-left: 1%;
+    padding-right: 1.1% !important;
+}
+
+.contact-transoil-btn{
+    background-color: #F58723;
+    border-color: #F58723;
+    color: white !important;
+}
+
+.contact-transoil-btn input:hover{
+    background-color: #f58f29 !important;
+}
+
+
+.contact-transoil a{
+    background-color: #F58723;
+    border-color: #F58723;
+    color: white !important;
+}
+
+.contact-transoil a:hover{
+    background-color: #db6f0a;
+}
+
+/*Tienda transoil*/
+.tienda-transoil a{
+    background-color: #F58723 !important;
+    border-color: #F58723 !important;
+    color: white !important;
+}
+
+.tienda-transoil a:hover{
+    background-color: #db6f0a !important;
+}
+
+.images-tienda{
+    max-width: 300px !important;
+    max-height: 300px !important;
+}
+
+.btn-tienda input{
+    background-color: #F58723 !important;
+    color: white !important;
+    border-color: #F58723 !important;
+}
+
+.btn-tienda input:hover{
+    background-color: #db6f0a !important;
+}
+
+.btn-comprar {
+    background-color: #F58723 !important;
+    color: white !important;
+    border-color: #F58723 !important;
+}
+
+.btn-tienda a:hover{
+    background-color: #db6f0a !important;
+}
+
+/* carrito .html*/
+
+.carritoTransoil p{
+    margin-left: 15px !important;
+}
